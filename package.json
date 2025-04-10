@@ -1,14 +1,20 @@
 {
   "name": "curso-ifrs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file .env src/index.js",
+    "watch": "node --watch --env-file .env src/index.js",
+    "dev": "cd src && node index.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@clack/prompts": "^0.10.1",
+    "chalk": "^5.4.1",
     "readline-sync": "^1.4.10"
   }
 }

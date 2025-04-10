@@ -1,0 +1,10 @@
+{
+    "name": "Lucas",
+    "age": 19,
+    "isProgrammmer": true,
+    "languages": [
+        "java",
+        "javascript",
+        "python"
+    ]
+}
